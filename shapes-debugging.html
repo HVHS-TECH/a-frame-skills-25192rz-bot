@@ -8,9 +8,9 @@
         <a-scene>
 
 <!-- Sky -->
-    <a sky
-        color=lightblue
-    ></a sky>
+    <a-sky
+        color="lightblue"
+    ></a-sky>
 
     
 <!-- ground - Oops, it's upside down!, check the rotation-->
@@ -18,18 +18,19 @@
         scale="50 50"
         color="lightgreen"
         rotation="90 0 0"
-    ></a-plane> 
+    
+    ></a-plane>
     
     
 <!-- Hills - Odd that the color coding of the HTML goes wrong here. -->
     <a-sphere 
         position="-9 -2 -13"
         color="mediumseagreen"
-        scale="8 4 8
+        scale="8 4 8"
     ></a-sphere>        
     <a-sphere 
         position="9 -2 -13"
-        colour="mediumseagreen"
+        color="mediumseagreen"
         scale="8 4 8"
     ></a-sphere> 
     
@@ -53,7 +54,7 @@ There's nothing wrong with red, even though it doesn't look right. Hmm, I wonder
     <a-torus 
         position="0 0 -15"
         color="blue"
-        radius 12
+        radius="12"
         radius-tubular="0.25"
     ></a-torus>
     <a-torus 
@@ -67,11 +68,11 @@ There's nothing wrong with red, even though it doesn't look right. Hmm, I wonder
         color="yellow"
         radius=10
         radius-tubular="0.25"
-    >
+    ></a-torus>
     <a-torus 
         position="0 0 -15"
         color="red"
-        radius=9
+        radius="9"
         radius-tubular="0.25"
     ></a-torus>
 
